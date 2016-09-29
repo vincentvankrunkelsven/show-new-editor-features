@@ -1,0 +1,6 @@
+- chapter_title: Test
+  chapter_description: Testing
+  exercises:
+    - title: first
+      type: NormalExercise
+      description: whaat
