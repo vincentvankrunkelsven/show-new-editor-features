@@ -1,6 +1,336 @@
-- chapter_title: Test
-  chapter_description: Testing
-  exercises:
-    - title: first
-      type: NormalExercise
-      content: whaat
+course_title: An Introduction to Options Pricing
+course_description: >-
+  This course is an introduction to option markets and pricing models. Options
+  markets are the epitome of global competitive economic processes. Options link
+  many markets through the concept of arbitrage. They react to news at lightning
+  speed as traders seek a competitive edge. Options provide a fascinating
+  laboratory to understand the economics of information and uncertainty. In this
+  course you will gain a basic understanding of what makes options so unique and
+  interesting. We will use the R programming language to understand the payoffs
+  of option trading strategies, to check market prices for arbitrage
+  opportunities, and to implement two of the most famous theoretical options
+  pricing models used every day by options traders; the Binomial and
+  Black-Scholes models.
+programming_language: r
+chapters:
+  - chapter_title: Introduction to Derivatives Markets
+    chapter_description: >-
+      This chapter provides an introduction to option contracts, option markets,
+      and the foundational economic principle of the law of one price otherwise
+      known as the no-arbitrage principle.
+    exercises:
+      - type: VideoExercise
+        title: An Introduction to Financial Derivatives
+        content: >-
+          Introduce financial derivative contracts with special emphasis on
+          options
+      - type: MultipleChoiceExercise
+        title: The Unique Feature of Options Contracts
+        content: >-
+          Which of the following is the primary distinguishing characteristic of
+          options contracts
+      - type: VideoExercise
+        title: The Social Function of Financial Deratives
+        content: Discuss the social benefits of financial derivatives
+      - type: MultipleChoiceExercise
+        title: The Social Benefits of Derivatives Markets
+        content: >-
+          Which of the following is an example of the social benefit of
+          derivatives markets?
+      - type: MultipleChoiceExercise
+        title: The Social Benefits of Derivatives Markets
+        content: >-
+          Due to a flood in 1991 the Chicago Board of Trade stoped trading.
+          During this time grain elevators refused to post spot prices. Which of
+          the following properties of derivatives markets explains this?
+      - type: MultipleChoiceExercise
+        title: The Informational Role of Options Prices
+        content: >-
+          Which of the following demonstrates how option prices convey
+          information about the economy more boardly?
+      - type: VideoExercise
+        title: Call and Put Option Payoffs
+        content: >-
+          Explain the payoff functions of vanilla call and put options and how
+          they differ from forward payoffs
+      - type: MultipleChoiceExercise
+        title: Call vs Put Payoff
+        content: >-
+          Which of the following pairs of traits differentiates call options
+          from put payoffs
+      - type: NormalExercise
+        title: Write Call and Put Option Payoff Function
+        content: >-
+          In this exercise you will write R functions to calculate the payoff
+          for a plain vanilla call and put options. max(), min(), pmax(), pmin()
+      - type: VideoExercise
+        title: Visualizing Call and Put Payoff Functions
+        content: >-
+          Discuss the structure of call and put payoff functions and how we can
+          visualize them
+      - type: NormalExercise
+        title: Plot Call and Put Payoff Functions
+        content: >-
+          In this exercise you will plot call and put payoff functions to help
+          visualize their respective payoffs. plot(), seq(), rep()
+  - chapter_title: Option Market Mechanics and Basic Trading Strategies
+    chapter_description: >-
+      This chapter provides an overview of option market mechanics, such as the
+      different type of options, margin accounting, the options clearing house,
+      and the specification of stock options contracts. It will also cover the
+      different type of options positions and how they are used for trading.
+    exercises:
+      - type: VideoExercise
+        title: Types of Options and Option Positions
+        content: ''
+      - type: MultipleChoiceExercise
+        title: The Difference European and American Options
+        content: >-
+          Which of the following pairs of characteristics distringuish European
+          and American options?
+      - type: NormalExercise
+        title: Visualizing Options Positions
+        content: >-
+          In this exercise you will plot the payoff functions for different
+          options positions. rep(), plot(), seq()
+      - type: VideoExercise
+        title: 'Commissions, Margin Requirements and the Clearing Corporation'
+        content: >-
+          Discuss some of the crucial characteristics of option markets
+          institutions
+      - type: MultipleChoiceExercise
+        title: The Option Clearing Corporation
+        content: >-
+          Which of the following is correct concerning the Options Clearing
+          Corporation?
+      - type: MultipleChoiceExercise
+        title: Understanding Margin Requirements
+        content: >-
+          Which of the following explains why margin accounts are necessary for
+          traders when they write options but not when they buy options?
+      - type: VideoExercise
+        title: Basic Option Trading Strategies
+        content: >-
+          Discuss covered calls, protective puts, and synthetic calls, puts, and
+          forwards
+      - type: MultipleChoiceExercise
+        title: Understanding Covered Calls and Protective Puts
+        content: >-
+          In the example above, how much profit would David have made had he not
+          written the covered call and Google stock went up to $90?
+      - type: NormalExercise
+        title: Plotting Covered Calls and Protective Puts
+        content: >-
+          In this exercise you will write R functions to plot basic option
+          trading strategies. seq(), rep(), plot()
+      - type: VideoExercise
+        title: More Advanced Option Trading Strategies
+        content: 'Straddles, Strangles, and Spreads'
+      - type: MultipleChoiceExercise
+        title: Understanding Spread Trades
+        content: >-
+          Consider the position of selling (instead of buying) a bull spread -
+          that is, writing a call with a low strike price and buying a call with
+          a high strike price. Which of the following explains how this differs
+          from buying a bull spread?
+      - type: NormalExercise
+        title: Plotting Spread Trades
+        content: >-
+          In this exercise you will write an R function to plot basic option
+          spread trades. rep(), seq(), plot()
+  - chapter_title: Put-Call Parity
+    chapter_description: >-
+      This chapter provides an overview of the crucial concept of put-call
+      parity for European options
+    exercises:
+      - type: VideoExercise
+        title: Put-Call Parity
+        content: Explain the concept of put-call parity
+      - type: MultipleChoiceExercise
+        title: Understanding Parity Relations
+        content: >-
+          Suppose that the asset is at $1020 and the interest rate is 5%. At
+          what strike price should a one-year call price equal the one-year put
+          price?
+      - type: NormalExercise
+        title: Implementing Put-Call Parity
+        content: >-
+          In this exercise you will write an R function to implement Put-Call
+          parity. rep(), seq()
+      - type: VideoExercise
+        title: Generalized Parity Relationships
+        content: Explain the concept of generalized parity relations
+      - type: MultipleChoiceExercise
+        title: Understanding Generalized Parity Relationships
+        content: >-
+          Suppose call and put prices are given by (show). Which of the
+          following no-arbitrage properties is violated?
+      - type: NormalExercise
+        title: Implementing Generalized Parity Relationships
+        content: >-
+          In this exercise you write an R function to test for generalized
+          parity relations. rep(), seq()
+      - type: VideoExercise
+        title: 'Comparing Options with Respect to Style, Maturity, and Strike'
+        content: >-
+          Explain the variation of option contracts with respect to key features
+          of options
+      - type: MultipleChoiceExercise
+        title: Understanding Key Features of Options
+        content: >-
+          Which of the following is true concerning option style, maturity and
+          strike price?
+      - type: NormalExercise
+        title: Testing the Implications of Differences in Maturity and Strike
+        content: >-
+          In this exercise you will write R functions to test for the difference
+          in option values with respect to maturity and strike. rep(), seq()
+      - type: VideoExercise
+        title: Parity Bounds for American Options
+        content: Explain parity bounds for American options
+      - type: MultipleChoiceExercise
+        title: Understanding American Parity Bounds
+        content: Which of following is correct concerning American parity bounds?
+  - chapter_title: The Binomial Model
+    chapter_description: >-
+      This chapter provides an introduction to the Binomial Options Pricing
+      Model.
+    exercises:
+      - type: VideoExercise
+        title: Computing the Option Price via The Law of One Price
+        content: >-
+          Introduction to the logic of no--arbitrage and relative pricing
+          formderivative contracts
+      - type: NormalExercise
+        title: The Law of One Price Function
+        content: >-
+          In this exercise you will write an R function to calculate the price
+          of the option via the simple law of one price rule. exp()
+      - type: VideoExercise
+        title: The Single Period Binomial Solution
+        content: >-
+          Introduce and derive the single period Binomial model using the logic
+          of no--arbitrage
+      - type: MultipleChoiceExercise
+        title: The Single Period Binomial Model
+        content: Which statement is correct regarding the single period Binomial model?
+      - type: NormalExercise
+        title: >-
+          Write an R function to implement the single-period European Binomial
+          Model
+        content: >-
+          In this exercise you will write an R function to calculate the price
+          of a call option in the single-period Binomial Options Pricing Model.
+          exp()
+      - type: VideoExercise
+        title: Arbitraging a Mispriced Option
+        content: ''
+      - content: >-
+          Demonstrate the process of arbitraging prices that are incoherent by
+          selecting the appropriate short and long positions
+        type: NormalExercise
+        title: ''
+      - type: MultipleChoiceExercise
+        title: Checking prices for arbitrage opportunities
+        content: Which pairs of prices below are subject to arbitrage?
+      - type: NormalExercise
+        title: Write an R function to Check for Arbitrage
+        content: >-
+          In this exercise you will write an R function to check for arbitrage
+          given the stock price, the risk-free rate and the quoted option price.
+          rep(), seq()
+      - type: VideoExercise
+        title: The Multiperiod Binomial Option Pricing Model for European Options
+        content: >-
+          Extending the basic model to multiple periods to make it more
+          realistic and useful for actual modeling
+      - type: MultipleChoiceExercise
+        title: The Multi-period European Binomial Model
+        content: >-
+          Which property of the European Binomial model allows us to simplify
+          the pricing solution relative to the American Binomial model?
+      - type: NormalExercise
+        title: >-
+          Write an R function to implement the multi-period European Binomial
+          Model
+        content: >-
+          In this exercise you will extend the function you have written for the
+          single-period European Binomial Options Pricing Model to multiple
+          periods. rep(), exp(), for loops
+      - type: VideoExercise
+        title: The Multiperiod Binomial Option Pricing Model for American Options
+        content: >-
+          Introduce the American Binomial model and the technique of backwards
+          recursion to solve for the option price
+      - type: MultipleChoiceExercise
+        title: The American Binomial Model
+        content: >-
+          Which property of the American Binomial model makes the full recursive
+          solution necessary?
+      - type: NormalExercise
+        title: >-
+          Write an R function to implement the multi-period American Binomial
+          Model
+        content: >-
+          In this exercise you will write an R function to implement the
+          American Binomial Options Pricing Model based off your code for
+          European version. array(), exp(), pmax(), pmin()
+  - chapter_title: The Black-Scholes Model
+    chapter_description: >-
+      This chapter provides an introduction to the Black-Scholes Options Pricing
+      Model.
+    exercises:
+      - type: VideoExercise
+        title: Introduction to the Black-Scholes Formula for Call and Put Options
+        content: >-
+          Present the Black-Scholes formula for European call and puts options,
+          and explain its use for pricing and trading options
+      - type: MultipleChoiceExercise
+        title: Comparing the Black-Scholes and Binomial Option Pricing Models
+        content: >-
+          Which pair of statements is true concerning the Black-Scholes and
+          Binomial Options Pricing Models?
+      - type: NormalExercise
+        title: Implementing Black-Scholes
+        content: >-
+          In this exercise you will write R functions to implement the
+          Black-Scholes model for call and put options. log(), exp(), pnorm()
+      - type: VideoExercise
+        title: The Option Greeks
+        content: >-
+          Present the so-called option greek parameters and explain how they
+          measure risk sensitivities for options
+      - type: MultipleChoiceExercise
+        title: Understanding The Greek Parameters
+        content: >-
+          Which of the following pairs of statements is correct concerning the
+          greek parameters?
+      - type: VideoExercise
+        title: Implied Volatility
+        content: >-
+          Discuss the calculation, interpretation, and use of implied volatities
+          from the Black-Scholes model
+      - type: MultipleChoiceExercise
+        title: Understanding Implied Volatility
+        content: >-
+          Which of the following statements correctly characterizes implied
+          volatlity?
+      - type: NormalExercise
+        title: Implementing Implied Volatility Calculation
+        content: >-
+          In this exercise you will write and R function to calculate the
+          Black-Scholes implied volatlity using the binary search method. log(),
+          exp(), pnorm(), for loops
+      - type: VideoExercise
+        title: Using Implied Volatility in Trading
+        content: ''
+      - type: MultipleChoiceExercise
+        title: Understanding Implied Volatility for Trading
+        content: >-
+          Why do option traders prefer to use implied volatlities over prices
+          when trading options?
+      - type: NormalExercise
+        title: Simulated Trading with Implied Volatility
+        content: >-
+          In this exercise you will write R code to use implied volatility in a
+          trading simulation. log(), exp(), rnorm(), for loops

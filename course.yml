@@ -1,7 +1,14 @@
-title            : show new editor features
-instructors      :
- - vincent@datacamp.com
-description      : This is an automatically generated demo course which will help you on your way to create an awesome DataCamp course.
-university       : DataCamp
-difficulty_level : 2
-time_needed      : 1 hour
+title: An Introduction to Options Pricing
+description: >-
+  This course is an introduction to option markets and pricing models. Options
+  markets are the epitome of global competitive economic processes. Options link
+  many markets through the concept of arbitrage. They react to news at lightning
+  speed as traders seek a competitive edge. Options provide a fascinating
+  laboratory to understand the economics of information and uncertainty. In this
+  course you will gain a basic understanding of what makes options so unique and
+  interesting. We will use the R programming language to understand the payoffs
+  of option trading strategies, to check market prices for arbitrage
+  opportunities, and to implement two of the most famous theoretical options
+  pricing models used every day by options traders; the Binomial and
+  Black-Scholes models.
+programming_language: r

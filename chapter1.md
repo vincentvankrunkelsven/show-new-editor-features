@@ -1,116 +1,203 @@
 ---
-title       : Insert the chapter title here
-description : Insert the chapter description here
-attachments :
-  slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
+title: Introduction to Derivatives Markets
+description: >-
+  This chapter provides an introduction to option contracts, option markets, and
+  the foundational economic principle of the law of one price otherwise known as
+  the no-arbitrage principle.
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:057388332c
-## A really bad movie
+--- type:VideoExercise lang:r xp:50 skills:1 key:647d523c0d
+## An Introduction to Financial Derivatives
 
-Have a look at the plot that showed up in the viewer to the right. Which type of movie has the worst rating assigned to it?
+Introduce financial derivative contracts with special emphasis on options
+
+*** =video_link
+//player.vimeo.com/video/154783078
+
+*** =video_hls
+//videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
+
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:f1f10d197c
+## The Unique Feature of Options Contracts
+
+Which of the following is the primary distinguishing characteristic of options contracts
 
 *** =instructions
-- Adventure
-- Action
-- Animation
-- Comedy
 
 *** =hint
-Have a look at the plot. Which color does the point with the lowest rating have?
 
 *** =pre_exercise_code
 ```{r}
-# The pre exercise code runs code to initialize the user's workspace.
-# You can use it to load packages, initialize datasets and draw a plot in the viewer
 
-movies <- read.csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
-
-library(ggplot2)
-
-ggplot(movies, aes(x = runtime, y = rating, col = genre)) + geom_point()
 ```
 
 *** =sct
 ```{r}
-# SCT written with testwhat: https://github.com/datacamp/testwhat/wiki
 
-msg_bad <- "That is not correct!"
-msg_success <- "Exactly! There seems to be a very bad action movie in the dataset."
-test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:3dceacdc6f
-## More movies
+--- type:VideoExercise lang:r xp:50 skills:1 key:cf2a74bf4b
+## The Social Function of Financial Deratives
 
-In the previous exercise, you saw a dataset about movies. In this exercise, we'll have a look at yet another dataset about movies!
+Discuss the social benefits of financial derivatives
 
-A dataset with a selection of movies, `movie_selection`, is available in the workspace.
+*** =video_link
+//player.vimeo.com/video/154783078
+
+*** =video_hls
+//videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
+
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:baec93ca48
+## The Social Benefits of Derivatives Markets
+
+Which of the following is an example of the social benefit of derivatives markets?
 
 *** =instructions
-- Check out the structure of `movie_selection`.
-- Select movies with a rating of 5 or higher. Assign the result to `good_movies`.
-- Use `plot()` to  plot `good_movies$Run` on the x-axis, `good_movies$Rating` on the y-axis and set `col` to `good_movies$Genre`.
 
 *** =hint
-- Use `str()` for the first instruction.
-- For the second instruction, you should use `...[movie_selection$Rating >= 5, ]`.
-- For the plot, use `plot(x = ..., y = ..., col = ...)`.
 
 *** =pre_exercise_code
 ```{r}
-# You can also prepare your dataset in a specific way in the pre exercise code
 
-library(MindOnStats)
-data(Movies)
-movie_selection <- Movies[Movies$Genre %in% c("action", "animated", "comedy"),c("Genre", "Rating", "Run")]
+```
 
-# Clean up the environment
-rm(Movies)
+*** =sct
+```{r}
+
+```
+
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:564e0a1226
+## The Social Benefits of Derivatives Markets
+
+Due to a flood in 1991 the Chicago Board of Trade stoped trading. During this time grain elevators refused to post spot prices. Which of the following properties of derivatives markets explains this?
+
+*** =instructions
+
+*** =hint
+
+*** =pre_exercise_code
+```{r}
+
+```
+
+*** =sct
+```{r}
+
+```
+
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:0a878f55b9
+## The Informational Role of Options Prices
+
+Which of the following demonstrates how option prices convey information about the economy more boardly?
+
+*** =instructions
+
+*** =hint
+
+*** =pre_exercise_code
+```{r}
+
+```
+
+*** =sct
+```{r}
+
+```
+
+--- type:VideoExercise lang:r xp:50 skills:1 key:39b9ee3510
+## Call and Put Option Payoffs
+
+Explain the payoff functions of vanilla call and put options and how they differ from forward payoffs
+
+*** =video_link
+//player.vimeo.com/video/154783078
+
+*** =video_hls
+//videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
+
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:b5d74c1b97
+## Call vs Put Payoff
+
+Which of the following pairs of traits differentiates call options from put payoffs
+
+*** =instructions
+
+*** =hint
+
+*** =pre_exercise_code
+```{r}
+
+```
+
+*** =sct
+```{r}
+
+```
+
+--- type:NormalExercise lang:r xp:100 skills:1 key:869de598e5
+## Write Call and Put Option Payoff Function
+
+In this exercise you will write R functions to calculate the payoff for a plain vanilla call and put options. max(), min(), pmax(), pmin()
+
+*** =instructions
+
+*** =hint
+
+*** =pre_exercise_code
+```{r}
+
 ```
 
 *** =sample_code
 ```{r}
-# movie_selection is available in your workspace
-
-# Check out the structure of movie_selection
-
-
-# Select movies that have a rating of 5 or higher: good_movies
-
-
-# Plot Run (i.e. run time) on the x axis, Rating on the y axis, and set the color using Genre
 
 ```
 
 *** =solution
 ```{r}
-# movie_selection is available in your workspace
 
-# Check out the structure of movie_selection
-str(movie_selection)
-
-# Select movies that have a rating of 5 or higher: good_movies
-good_movies <- movie_selection[movie_selection$Rating >= 5, ]
-
-# Plot Run (i.e. run time) on the x axis, Rating on the y axis, and set the color using Genre
-plot(good_movies$Run, good_movies$Rating, col = good_movies$Genre)
 ```
 
 *** =sct
 ```{r}
-# SCT written with testwhat: https://github.com/datacamp/testwhat/wiki
 
-test_function("str", args = "object",
-              not_called_msg = "You didn't call `str()`!",
-              incorrect_msg = "You didn't call `str(object = ...)` with the correct argument, `object`.")
+```
 
-test_object("good_movies")
+--- type:VideoExercise lang:r xp:50 skills:1 key:2f0e5689e6
+## Visualizing Call and Put Payoff Functions
 
-test_function("plot", args = "x")
-test_function("plot", args = "y")
-test_function("plot", args = "col")
+Discuss the structure of call and put payoff functions and how we can visualize them
 
-test_error()
+*** =video_link
+//player.vimeo.com/video/154783078
 
-success_msg("Good work!")
+*** =video_hls
+//videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
+
+--- type:NormalExercise lang:r xp:100 skills:1 key:4c00383a07
+## Plot Call and Put Payoff Functions
+
+In this exercise you will plot call and put payoff functions to help visualize their respective payoffs. plot(), seq(), rep()
+
+*** =instructions
+
+*** =hint
+
+*** =pre_exercise_code
+```{r}
+
+```
+
+*** =sample_code
+```{r}
+
+```
+
+*** =solution
+```{r}
+
+```
+
+*** =sct
+```{r}
+
 ```
