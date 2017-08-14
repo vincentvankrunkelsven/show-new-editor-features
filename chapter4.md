@@ -2,7 +2,7 @@
 title: The Binomial Model
 description: This chapter provides an introduction to the Binomial Options Pricing Model.
 
---- type:VideoExercise lang:r xp:50 skills:1 key:9cc096ce95
+--- type:VideoExercise lang:r xp:50 skills:1 key:e8de88c78e
 ## Computing the Option Price via The Law of One Price
 
 Introduction to the logic of no--arbitrage and relative pricing formderivative contracts
@@ -13,7 +13,7 @@ Introduction to the logic of no--arbitrage and relative pricing formderivative c
 *** =video_hls
 //videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
 
---- type:NormalExercise lang:r xp:100 skills:1 key:3d3fec1b68
+--- type:NormalExercise lang:r xp:100 skills:1 key:f498ee38f1
 ## The Law of One Price Function
 
 In this exercise you will write an R function to calculate the price of the option via the simple law of one price rule. exp()
@@ -42,7 +42,7 @@ In this exercise you will write an R function to calculate the price of the opti
 
 ```
 
---- type:VideoExercise lang:r xp:50 skills:1 key:d7a07ea360
+--- type:VideoExercise lang:r xp:50 skills:1 key:035a0e3987
 ## The Single Period Binomial Solution
 
 Introduce and derive the single period Binomial model using the logic of no--arbitrage
@@ -53,7 +53,7 @@ Introduce and derive the single period Binomial model using the logic of no--arb
 *** =video_hls
 //videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:2eb98b536a
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:688ee9afc8
 ## The Single Period Binomial Model
 
 Which statement is correct regarding the single period Binomial model?
@@ -72,7 +72,7 @@ Which statement is correct regarding the single period Binomial model?
 
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:b3f5470a9a
+--- type:NormalExercise lang:r xp:100 skills:1 key:ae457572a6
 ## Write an R function to implement the single-period European Binomial Model
 
 In this exercise you will write an R function to calculate the price of a call option in the single-period Binomial Options Pricing Model. exp()
@@ -101,7 +101,7 @@ In this exercise you will write an R function to calculate the price of a call o
 
 ```
 
---- type:VideoExercise lang:r xp:50 skills:1 key:526c4e3402
+--- type:VideoExercise lang:r xp:50 skills:1 key:d6c0566bc7
 ## Arbitraging a Mispriced Option
 
 
@@ -112,7 +112,7 @@ In this exercise you will write an R function to calculate the price of a call o
 *** =video_hls
 //videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
 
---- type:NormalExercise lang:r xp:100 skills:1 key:fc4320f1ef
+--- type:NormalExercise lang:r xp:100 skills:1 key:b622c95fd5
 ## 
 
 Demonstrate the process of arbitraging prices that are incoherent by selecting the appropriate short and long positions
@@ -141,7 +141,7 @@ Demonstrate the process of arbitraging prices that are incoherent by selecting t
 
 ```
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:2cfe828f71
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:cce443ce6f
 ## Checking prices for arbitrage opportunities
 
 Which pairs of prices below are subject to arbitrage?
@@ -160,7 +160,7 @@ Which pairs of prices below are subject to arbitrage?
 
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:de66558541
+--- type:NormalExercise lang:r xp:100 skills:1 key:3fc3b00197
 ## Write an R function to Check for Arbitrage
 
 In this exercise you will write an R function to check for arbitrage given the stock price, the risk-free rate and the quoted option price. rep(), seq()
@@ -189,7 +189,7 @@ In this exercise you will write an R function to check for arbitrage given the s
 
 ```
 
---- type:VideoExercise lang:r xp:50 skills:1 key:a44176d2ed
+--- type:VideoExercise lang:r xp:50 skills:1 key:57184dd3e2
 ## The Multiperiod Binomial Option Pricing Model for European Options
 
 Extending the basic model to multiple periods to make it more realistic and useful for actual modeling
@@ -200,7 +200,7 @@ Extending the basic model to multiple periods to make it more realistic and usef
 *** =video_hls
 //videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:acfde88324
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:34cfa790b2
 ## The Multi-period European Binomial Model
 
 Which property of the European Binomial model allows us to simplify the pricing solution relative to the American Binomial model?
@@ -219,7 +219,7 @@ Which property of the European Binomial model allows us to simplify the pricing 
 
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:4203302002
+--- type:NormalExercise lang:r xp:100 skills:1 key:fa72ea5f12
 ## Write an R function to implement the multi-period European Binomial Model
 
 In this exercise you will extend the function you have written for the single-period European Binomial Options Pricing Model to multiple periods. rep(), exp(), for loops
@@ -248,7 +248,7 @@ In this exercise you will extend the function you have written for the single-pe
 
 ```
 
---- type:VideoExercise lang:r xp:50 skills:1 key:5afdd5817b
+--- type:VideoExercise lang:r xp:50 skills:1 key:3414428a17
 ## The Multiperiod Binomial Option Pricing Model for American Options
 
 Introduce the American Binomial model and the technique of backwards recursion to solve for the option price
@@ -259,7 +259,7 @@ Introduce the American Binomial model and the technique of backwards recursion t
 *** =video_hls
 //videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:e05b027c16
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:2bb2ea448a
 ## The American Binomial Model
 
 Which property of the American Binomial model makes the full recursive solution necessary?
@@ -278,7 +278,7 @@ Which property of the American Binomial model makes the full recursive solution 
 
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:ec5863bf7a
+--- type:NormalExercise lang:r xp:100 skills:1 key:748bedcd5c
 ## Write an R function to implement the multi-period American Binomial Model
 
 In this exercise you will write an R function to implement the American Binomial Options Pricing Model based off your code for European version. array(), exp(), pmax(), pmin()
