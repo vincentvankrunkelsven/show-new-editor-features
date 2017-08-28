@@ -6,7 +6,7 @@ description: >-
   the specification of stock options contracts. It will also cover the different
   type of options positions and how they are used for trading.
 
---- type:VideoExercise lang:r xp:50 skills:1 key:687d3c7fa8
+--- type:VideoExercise lang:r xp:50 skills:1 key:38f9473419
 ## Types of Options and Option Positions
 
 
@@ -17,7 +17,7 @@ description: >-
 *** =video_hls
 //videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:d8e6ca9307
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:f70cf39d2e
 ## The Difference European and American Options
 
 Which of the following pairs of characteristics distringuish European and American options?
@@ -36,7 +36,7 @@ Which of the following pairs of characteristics distringuish European and Americ
 
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:c88ac04897
+--- type:NormalExercise lang:r xp:100 skills:1 key:80cedbbac5
 ## Visualizing Options Positions
 
 In this exercise you will plot the payoff functions for different options positions. rep(), plot(), seq()
@@ -65,7 +65,7 @@ In this exercise you will plot the payoff functions for different options positi
 
 ```
 
---- type:VideoExercise lang:r xp:50 skills:1 key:7da4719903
+--- type:VideoExercise lang:r xp:50 skills:1 key:bfd9b9dff3
 ## Commissions, Margin Requirements and the Clearing Corporation
 
 Discuss some of the crucial characteristics of option markets institutions
@@ -76,7 +76,7 @@ Discuss some of the crucial characteristics of option markets institutions
 *** =video_hls
 //videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:ca885ee5bb
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:e7d0d73290
 ## The Option Clearing Corporation
 
 Which of the following is correct concerning the Options Clearing Corporation?
@@ -95,7 +95,7 @@ Which of the following is correct concerning the Options Clearing Corporation?
 
 ```
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:5897c06d26
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:44a02f65e2
 ## Understanding Margin Requirements
 
 Which of the following explains why margin accounts are necessary for traders when they write options but not when they buy options?
@@ -114,7 +114,7 @@ Which of the following explains why margin accounts are necessary for traders wh
 
 ```
 
---- type:VideoExercise lang:r xp:50 skills:1 key:61210b77d7
+--- type:VideoExercise lang:r xp:50 skills:1 key:ee1ebc529b
 ## Basic Option Trading Strategies
 
 Discuss covered calls, protective puts, and synthetic calls, puts, and forwards
@@ -125,7 +125,7 @@ Discuss covered calls, protective puts, and synthetic calls, puts, and forwards
 *** =video_hls
 //videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:c187abac7f
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:af7d946887
 ## Understanding Covered Calls and Protective Puts
 
 In the example above, how much profit would David have made had he not written the covered call and Google stock went up to $90?
@@ -144,7 +144,7 @@ In the example above, how much profit would David have made had he not written t
 
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:b035053535
+--- type:NormalExercise lang:r xp:100 skills:1 key:15db944857
 ## Plotting Covered Calls and Protective Puts
 
 In this exercise you will write R functions to plot basic option trading strategies. seq(), rep(), plot()
@@ -173,7 +173,7 @@ In this exercise you will write R functions to plot basic option trading strateg
 
 ```
 
---- type:VideoExercise lang:r xp:50 skills:1 key:4d7e6d3a04
+--- type:VideoExercise lang:r xp:50 skills:1 key:4324b771ac
 ## More Advanced Option Trading Strategies
 
 Straddles, Strangles, and Spreads
@@ -184,7 +184,7 @@ Straddles, Strangles, and Spreads
 *** =video_hls
 //videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:796859ee98
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:6ada6269e5
 ## Understanding Spread Trades
 
 Consider the position of selling (instead of buying) a bull spread - that is, writing a call with a low strike price and buying a call with a high strike price. Which of the following explains how this differs from buying a bull spread?
@@ -203,7 +203,7 @@ Consider the position of selling (instead of buying) a bull spread - that is, wr
 
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:8e98873020
+--- type:NormalExercise lang:r xp:100 skills:1 key:2c6594a79c
 ## Plotting Spread Trades
 
 In this exercise you will write an R function to plot basic option spread trades. rep(), seq(), plot()

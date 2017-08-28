@@ -4,7 +4,7 @@ description: >-
   This chapter provides an overview of the crucial concept of put-call parity
   for European options
 
---- type:VideoExercise lang:r xp:50 skills:1 key:c7a65df47c
+--- type:VideoExercise lang:r xp:50 skills:1 key:804ef9fdcd
 ## Put-Call Parity
 
 Explain the concept of put-call parity
@@ -15,7 +15,7 @@ Explain the concept of put-call parity
 *** =video_hls
 //videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:4f1c23ea50
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:f73cb157a6
 ## Understanding Parity Relations
 
 Suppose that the asset is at $1020 and the interest rate is 5%. At what strike price should a one-year call price equal the one-year put price?
@@ -34,7 +34,7 @@ Suppose that the asset is at $1020 and the interest rate is 5%. At what strike p
 
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:956f28f9d9
+--- type:NormalExercise lang:r xp:100 skills:1 key:65cb3f9527
 ## Implementing Put-Call Parity
 
 In this exercise you will write an R function to implement Put-Call parity. rep(), seq()
@@ -63,7 +63,7 @@ In this exercise you will write an R function to implement Put-Call parity. rep(
 
 ```
 
---- type:VideoExercise lang:r xp:50 skills:1 key:5183614472
+--- type:VideoExercise lang:r xp:50 skills:1 key:1014f64093
 ## Generalized Parity Relationships
 
 Explain the concept of generalized parity relations
@@ -74,7 +74,7 @@ Explain the concept of generalized parity relations
 *** =video_hls
 //videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:225c9a06c4
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:acbb9f1cd7
 ## Understanding Generalized Parity Relationships
 
 Suppose call and put prices are given by (show). Which of the following no-arbitrage properties is violated?
@@ -93,7 +93,7 @@ Suppose call and put prices are given by (show). Which of the following no-arbit
 
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:8322417bc7
+--- type:NormalExercise lang:r xp:100 skills:1 key:2a542ecb6f
 ## Implementing Generalized Parity Relationships
 
 In this exercise you write an R function to test for generalized parity relations. rep(), seq()
@@ -122,7 +122,7 @@ In this exercise you write an R function to test for generalized parity relation
 
 ```
 
---- type:VideoExercise lang:r xp:50 skills:1 key:fe7c912345
+--- type:VideoExercise lang:r xp:50 skills:1 key:873046fb8c
 ## Comparing Options with Respect to Style, Maturity, and Strike
 
 Explain the variation of option contracts with respect to key features of options
@@ -133,7 +133,7 @@ Explain the variation of option contracts with respect to key features of option
 *** =video_hls
 //videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:4b6909a7c8
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:5929016797
 ## Understanding Key Features of Options
 
 Which of the following is true concerning option style, maturity and strike price?
@@ -152,7 +152,7 @@ Which of the following is true concerning option style, maturity and strike pric
 
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:e55e5d801e
+--- type:NormalExercise lang:r xp:100 skills:1 key:ac4e5232bb
 ## Testing the Implications of Differences in Maturity and Strike
 
 In this exercise you will write R functions to test for the difference in option values with respect to maturity and strike. rep(), seq()
@@ -181,7 +181,7 @@ In this exercise you will write R functions to test for the difference in option
 
 ```
 
---- type:VideoExercise lang:r xp:50 skills:1 key:30ca5eb8fb
+--- type:VideoExercise lang:r xp:50 skills:1 key:a8f03b5863
 ## Parity Bounds for American Options
 
 Explain parity bounds for American options
@@ -192,7 +192,7 @@ Explain parity bounds for American options
 *** =video_hls
 //videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:eb8de8c18e
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:4ef0bf3e6e
 ## Understanding American Parity Bounds
 
 Which of following is correct concerning American parity bounds?
