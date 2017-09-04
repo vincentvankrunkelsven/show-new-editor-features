@@ -5,7 +5,7 @@ description: >-
   the foundational economic principle of the law of one price otherwise known as
   the no-arbitrage principle.
 
---- type:VideoExercise lang:r xp:50 skills:1 key:715ef09a8f
+--- type:VideoExercise lang:r xp:50 skills:1 key:fedb6dae04
 ## An Introduction to Financial Derivatives
 
 Introduce financial derivative contracts with special emphasis on options
@@ -16,7 +16,7 @@ Introduce financial derivative contracts with special emphasis on options
 *** =video_hls
 //videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:3515104a00
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:e20d852c65
 ## The Unique Feature of Options Contracts
 
 Which of the following is the primary distinguishing characteristic of options contracts
@@ -35,7 +35,7 @@ Which of the following is the primary distinguishing characteristic of options c
 
 ```
 
---- type:VideoExercise lang:r xp:50 skills:1 key:c038e86adc
+--- type:VideoExercise lang:r xp:50 skills:1 key:b1c64828f4
 ## The Social Function of Financial Deratives
 
 Discuss the social benefits of financial derivatives
@@ -46,7 +46,7 @@ Discuss the social benefits of financial derivatives
 *** =video_hls
 //videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:51cbb9a904
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:3d581f96d5
 ## The Social Benefits of Derivatives Markets
 
 Which of the following is an example of the social benefit of derivatives markets?
@@ -65,7 +65,7 @@ Which of the following is an example of the social benefit of derivatives market
 
 ```
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:53160a257b
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:74c279dc4a
 ## The Social Benefits of Derivatives Markets
 
 Due to a flood in 1991 the Chicago Board of Trade stoped trading. During this time grain elevators refused to post spot prices. Which of the following properties of derivatives markets explains this?
@@ -84,7 +84,7 @@ Due to a flood in 1991 the Chicago Board of Trade stoped trading. During this ti
 
 ```
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:d45734a900
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:2f51013765
 ## The Informational Role of Options Prices
 
 Which of the following demonstrates how option prices convey information about the economy more boardly?
@@ -103,7 +103,7 @@ Which of the following demonstrates how option prices convey information about t
 
 ```
 
---- type:VideoExercise lang:r xp:50 skills:1 key:993ecdedf0
+--- type:VideoExercise lang:r xp:50 skills:1 key:72d5e5f7bd
 ## Call and Put Option Payoffs
 
 Explain the payoff functions of vanilla call and put options and how they differ from forward payoffs
@@ -114,7 +114,7 @@ Explain the payoff functions of vanilla call and put options and how they differ
 *** =video_hls
 //videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:79095e246c
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:36de3f9282
 ## Call vs Put Payoff
 
 Which of the following pairs of traits differentiates call options from put payoffs
@@ -133,7 +133,7 @@ Which of the following pairs of traits differentiates call options from put payo
 
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:e10dbeaf23
+--- type:NormalExercise lang:r xp:100 skills:1 key:0d476a049d
 ## Write Call and Put Option Payoff Function
 
 In this exercise you will write R functions to calculate the payoff for a plain vanilla call and put options. max(), min(), pmax(), pmin()
@@ -162,7 +162,7 @@ In this exercise you will write R functions to calculate the payoff for a plain 
 
 ```
 
---- type:VideoExercise lang:r xp:50 skills:1 key:d9467d5e82
+--- type:VideoExercise lang:r xp:50 skills:1 key:fb3426c76d
 ## Visualizing Call and Put Payoff Functions
 
 Discuss the structure of call and put payoff functions and how we can visualize them
@@ -173,7 +173,7 @@ Discuss the structure of call and put payoff functions and how we can visualize 
 *** =video_hls
 //videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
 
---- type:NormalExercise lang:r xp:100 skills:1 key:9e828c87fb
+--- type:NormalExercise lang:r xp:100 skills:1 key:89852f5e04
 ## Plot Call and Put Payoff Functions
 
 In this exercise you will plot call and put payoff functions to help visualize their respective payoffs. plot(), seq(), rep()

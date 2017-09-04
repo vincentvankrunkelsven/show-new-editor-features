@@ -4,7 +4,7 @@ description: >-
   This chapter provides an introduction to the Black-Scholes Options Pricing
   Model.
 
---- type:VideoExercise lang:r xp:50 skills:1 key:bb49b863bd
+--- type:VideoExercise lang:r xp:50 skills:1 key:175c81d40c
 ## Introduction to the Black-Scholes Formula for Call and Put Options
 
 Present the Black-Scholes formula for European call and puts options, and explain its use for pricing and trading options
@@ -15,7 +15,7 @@ Present the Black-Scholes formula for European call and puts options, and explai
 *** =video_hls
 //videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:4d19546fe1
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:ffb6797264
 ## Comparing the Black-Scholes and Binomial Option Pricing Models
 
 Which pair of statements is true concerning the Black-Scholes and Binomial Options Pricing Models?
@@ -34,7 +34,7 @@ Which pair of statements is true concerning the Black-Scholes and Binomial Optio
 
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:1a3db104e9
+--- type:NormalExercise lang:r xp:100 skills:1 key:8565c8e1a0
 ## Implementing Black-Scholes
 
 In this exercise you will write R functions to implement the Black-Scholes model for call and put options. log(), exp(), pnorm()
@@ -63,7 +63,7 @@ In this exercise you will write R functions to implement the Black-Scholes model
 
 ```
 
---- type:VideoExercise lang:r xp:50 skills:1 key:402af9a3d2
+--- type:VideoExercise lang:r xp:50 skills:1 key:a9a0d8ca29
 ## The Option Greeks
 
 Present the so-called option greek parameters and explain how they measure risk sensitivities for options
@@ -74,7 +74,7 @@ Present the so-called option greek parameters and explain how they measure risk 
 *** =video_hls
 //videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:09b7b6893e
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:3fed9b7c9f
 ## Understanding The Greek Parameters
 
 Which of the following pairs of statements is correct concerning the greek parameters?
@@ -93,7 +93,7 @@ Which of the following pairs of statements is correct concerning the greek param
 
 ```
 
---- type:VideoExercise lang:r xp:50 skills:1 key:bd74ea00fa
+--- type:VideoExercise lang:r xp:50 skills:1 key:9fe7ce5ba0
 ## Implied Volatility
 
 Discuss the calculation, interpretation, and use of implied volatities from the Black-Scholes model
@@ -104,7 +104,7 @@ Discuss the calculation, interpretation, and use of implied volatities from the 
 *** =video_hls
 //videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:6a72204ae7
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:df09a82413
 ## Understanding Implied Volatility
 
 Which of the following statements correctly characterizes implied volatlity?
@@ -123,7 +123,7 @@ Which of the following statements correctly characterizes implied volatlity?
 
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:ddaa6bd8e2
+--- type:NormalExercise lang:r xp:100 skills:1 key:b953f83a25
 ## Implementing Implied Volatility Calculation
 
 In this exercise you will write and R function to calculate the Black-Scholes implied volatlity using the binary search method. log(), exp(), pnorm(), for loops
@@ -152,7 +152,7 @@ In this exercise you will write and R function to calculate the Black-Scholes im
 
 ```
 
---- type:VideoExercise lang:r xp:50 skills:1 key:0ba5a54606
+--- type:VideoExercise lang:r xp:50 skills:1 key:cd3d3a8a5b
 ## Using Implied Volatility in Trading
 
 
@@ -163,7 +163,7 @@ In this exercise you will write and R function to calculate the Black-Scholes im
 *** =video_hls
 //videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:c50059d474
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:816e7df361
 ## Understanding Implied Volatility for Trading
 
 Why do option traders prefer to use implied volatlities over prices when trading options?
@@ -182,7 +182,7 @@ Why do option traders prefer to use implied volatlities over prices when trading
 
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:1c7480f21b
+--- type:NormalExercise lang:r xp:100 skills:1 key:a1995b2fa3
 ## Simulated Trading with Implied Volatility
 
 In this exercise you will write R code to use implied volatility in a trading simulation. log(), exp(), rnorm(), for loops
